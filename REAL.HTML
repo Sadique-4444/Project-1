@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project</title>
+<style>
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: palegoldenrod;
+}
+.sadique{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background:brown;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0,0, .3);
+
+}
+.sadique:hover{
+    width: 400px;
+}
+
+.navbar{
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    background: rgb(19, 85, 92);
+}
+.navbar ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 40px;
+}
+.navbar ul li{
+    position: relative;
+    margin: 10px; 
+}
+.navbar ul li a{
+    position: relative;
+    color:red;
+    text-decoration: none;
+    border: 1px solid teal ;
+    padding: 0px 5px;
+    background-color: #041d24;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.navbar ul li a:hover{
+    background-color: orangered;
+    color: black;
+    transition: 1.5s;
+}
+.banner{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background-image: cover;
+    display: flex;
+    background-size: cover;
+    background-position: 100%;
+    
+    
+}
+H1{
+    font-size: 50px;
+    color: black;
+    text-shadow: 3px 3px 3px white;
+}
+.containt{
+    height: 430px;
+    width: 100%;
+    display: flex;
+    background-color: orangered;
+}
+.box{
+    border: 2px solid black;
+    width: 20%;
+    height: 360px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    box-shadow: 4px 5px 7px black;
+    
+}
+.containt1{
+    height: 430px;
+    width: 100%;
+    display: flex;
+    background-color:orangered;
+    margin-top: 8px;
+}
+.box p{
+    color: #ff0000;
+    font-size: 20px;
+}
+.box img{
+    width: 100%;
+    height: 160px;
+}
+.view a{
+    text-decoration: none;
+    color: rgb(3, 3, 173);
+    font-size: 12px;
+
+}
+.footer{
+    background-color:rgb(27, 27, 76);
+    margin-top: 14px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    font-size: 15px;
+}
+.input_field{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none!important;
+}
+span{
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    font-size: 40px;
+    color: #ff0000;
+    font-weight: bold;
+    padding: 0px;
+}
+button{
+    margin-top: 20px;
+    background:rgba(0, 0,0, .5);
+    color: aqua;
+    font-weight: bold;
+    height: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 10px;
+
+}
+button:hover{
+    box-shadow: 1px 1px 10px orangered;
+    transition: 0.5s;
+}
+.contact_form{
+    border: 2px solid black;
+    padding: 15px;
+    margin-top: 8px;
+    box-shadow: 3px 3px 4px black;
+    border-radius: 10px;
+    
+}
+.input_field,input,textarea{
+    background: transparent;
+    margin-top: 7px;
+    padding-left: 4px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+}
+.input_field,input,textarea:focus{
+    outline: none;
+    font-size: 17px;
+}
+
+::placeholder{
+    font-family: 'Times New Roman';
+}
+
+.contact_us{
+    border: 2px solid black;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 20px;
+}
+
+
+.facebook,i{
+    padding-top: -10px;
+    color: orangered;
+    margin-right: auto;
+    font-size: 30px;
+    margin-left: 140px;
+}
+.facebook p{
+    font-size: 15px;
+    margin-left: -10px;
+    color: tan;
+}
+.contact_us2{
+    border: 2px solid white;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+</style>
+</head>
+    <meta charset= "UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+    <div class="sadique">
+        <input type="text" placeholder="search....">
+        <a href="#">
+            <i class="fas fa-search"></i>
+        </a>
+    </div>
+    <section>
+        <nav class="navbar">
+            <ul>
+                <span>🛒</span>
+                <li><a href="arh.html">🏚️HOME</a></li>
+                <li><a href= project.html>🥭FRUITS</a></li>
+                <li><a href="#">⌚WATCH</a></li>
+                <li><a href="#">📱MOBILES</a></li>
+                <li><a href="#">👖DRESSES</a></li>
+                <li><a href="#">🔔HELP</a></li>
+                
+        </nav>
+        <div class="banner">
+            <h1>WLCOME TO MY SHOPPING WEBSITE </h1>
+        </div>
+        <div class="containt">
+            <div class="box"><img src="C:\Users\MD SADIQUE\Downloads\Fruits.JPG"></img> <p>FRUITS GALLERY</p>In botany, a fruit is the seed-bearing structure in flowering plants that is formed from the ovary after flowering.Fruits are the means by which flowering plants (also known as angiosperms)? <div class="view"><a href="https://www.flipkart.com/search?q=fruits%20gallery&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off" target="_blank">View more</a></div></div>
+            <div class="box"><img src="C:\Users\MD SADIQUE\Desktop\C PROGRAM\WATCH GALLERY.jpg"></img> <p>WATCH GALLERY</p>A watch is a portable timepiece intended to be carried or worn by a person. It is designed to keep a consistent movement despite the motions caused by the person's activities. <div class="view"><a href="https://www.flipkart.com/search?q=watch%20gallery&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off" target="_blank">View more</a></div></div>
+            <div class="box"><img src="C:\Users\MD SADIQUE\Desktop\C PROGRAM\MOBILES GALLERY.jpg"></img> <p> MOBILES GALLERY</p>A mobile phone (or cellphone) is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area. <div class="view"><a href="https://www.flipkart.com/search?q=gallery+mobile&sid=tyy%2C4io&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_14_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_14_na_na_ps&as-pos=1&as-type=RECENT&suggestionId=gallery+mobile%7CMobiles&requestId=de97b4b6-8ab1-4a0f-8dd1-2b92b6369a60&as-searchtext=mobile%20gallery" target="_blank">View more</a></div></div>
+            <div class="box"><img src="C:\Users\MD SADIQUE\Desktop\C PROGRAM\DRESS.jpg"></img> <p> MEN DRESSES GALLERY</p>The required clothing for men, in the evening, is roughly the following: Formal trousers, uncuffed, with stripes on leg seams. White piqué front or plain stiff-fronted shirt. <div class="view"><a href="https://www.flipkart.com/search?q=men%20dresses%20gallery&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off" target="_blank">View more</a></div></div>
+            <div class="box"><img src="C:\Users\MD SADIQUE\Desktop\C PROGRAM\EARPHONE.jpg"></img> <p>EARPHONE GALLERY</p>Headphones are also known as earphones or, colloquially, cans. Circumaural'around the ear'and supra-aural'over the ear'headphones use a band over the top of the head.<div class="view"><a href="https://www.flipkart.com/search?q=earphone+gallery&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off" target="_blank">View more</a></div></div>
+        </div>
+        <div class="containt1">
+            <div class="box"><img src="C:\Users\MD SADIQUE\Desktop\C PROGRAM\WOMEN.jpg"></img> <p>WOMEN GALLERY</p>In western countries, a "formal" or white tie dress code typically means tailcoats for men and evening dresses for women. <div class="view"><a href="https://www.flipkart.com/search?q=women+dress&sid=clo%2Codx%2Cmaj%2Cjhy&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_9_na_na_na&as-pos=1&as-type=RECENT&suggestionId=women+dress%7CWomen%27s+Dresses&requestId=feea1dd0-d145-456a-b48b-80ce629014f4&as-searchtext=women%20dresser%20ga" target="_blank">View more</a></div></div>
+            <div class="box"><img src="C:\Users\MD SADIQUE\Desktop\C PROGRAM\CHILD.jpg"></img> <p> CHILDREEN GALLERY</p>Children's clothing or kids' clothing is clothing for children who have not yet grown to full height. Children's clothing is often more casual than adult clothing, fit for play and rest.<div class="view"><a href="https://www.flipkart.com/search?q=child%20dress%20gallery%20for%20boy&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off" target="_blank">View more</a></div></div>
+            <div class="box"><img src="C:\Users\MD SADIQUE\Desktop\C PROGRAM\LAPTOP.jpg"></img> <p>LAPTOP GALLERY</p>Laptops combine many of the input/output components and capabilities of a desktop computer into a single unit, including a display screen, small speakers, a keyboard, and a pointing device (such as a touch pad or pointing stick). <div class="view"><a href="new.html" target="_blank">View more</a></div></div>
+            <div class="box"><img src="C:\Users\MD SADIQUE\Desktop\C PROGRAM\SHOES.jpg"></img> <p>SHOES GALLERY</p>A shoe is an item of footwear intended to protect and comfort the human foot. Though the human foot can adapt to varied terrains and climate conditions, it is vulnerable, and shoes provide protection. <div class="view"><a href="assignment1.html" target="_blank">View more</a></div></div>
+        </div>
+        <div class="containt1">
+            <div class="box"><img src="C:\Users\MD SADIQUE\Desktop\C PROGRAM\WOMEN.jpg"></img> <p>WOMEN GALLERY</p>In western countries, a "formal" or white tie dress code typically means tailcoats for men and evening dresses for women. <div class="view"><a href="assignment2.html" target="_blank">View more</a></div></div>
+            <div class="box"><img src="C:\Users\MD SADIQUE\Desktop\C PROGRAM\CHILD.jpg"></img> <p> CHILDREEN GALLERY</p>Children's clothing or kids' clothing is clothing for children who have not yet grown to full height. Children's clothing is often more casual than adult clothing, fit for play and rest.<div class="view"><a href="nav.html" target="_blank">View more</a></div></div>
+            <div class="box"><img src="C:\Users\MD SADIQUE\Desktop\C PROGRAM\LAPTOP.jpg"></img> <p>LAPTOP GALLERY</p>Laptops combine many of the input/output components and capabilities of a desktop computer into a single unit, including a display screen, small speakers, a keyboard, and a pointing device (such as a touch pad or pointing stick). <div class="view"><a href="new.html" target="_blank">View more</a></div></div>
+            <div class="box"><img src="C:\Users\MD SADIQUE\Desktop\C PROGRAM\SHOES.jpg"></img> <p>SHOES GALLERY</p>A shoe is an item of footwear intended to protect and comfort the human foot. Though the human foot can adapt to varied terrains and climate conditions, it is vulnerable, and shoes provide protection. <div class="view"><a href="assignment1.html" target="_blank">View more</a></div></div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="contact_form">
+                <form action = #>
+                    <div class="input_field">
+                        <label for="name">Email Id</label>
+                        <input type="email" placeholder=" email id">
+                    </div>
+                    <div class="input_field">
+                        <label for="name">Mobile No</label>
+                        <input type="number" placeholder="mobile no">
+                    </div>
+                    <div class="input_field">
+                        <label for="name">OTP</label>
+                        <textarea name="alphanumeric" placeholder="OTP"></textarea>
+                        <button>Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class=""></div>
+            <div class="facebook">
+               <a href="https://amazone.com" target="_blank"><i class="fa-brands fa-square-amazone"><p>📦AMAZONE</p></a></i>
+                <a href="https://flipkart.com" target="_blank"><i class="fa-brands fa-flipkart"><p>FLIPKART</p></a></i>
+                <a href="https://meesho.com" target="_blank"><i class="fa-brands fa-meesho"><p>MEESHO</p></a></i>
+                <a href="https://google.com" target="_blank"><i class="fa-brands fa-google"><p>GOOGLE</p></a></i>
+                <a href="https://mentra.com"target="_blank"><i class="fa-brands fa-mentra"><p>MENTRA</p></a></i>
+            </div>
+            <div class="contact_us2"></div>
+        </div>
+    </footer>
+</body>
+</html>
